@@ -1,7 +1,12 @@
 # Plumbing Order Management App
 
-A simple Python desktop application developed to help organise plumbing
-material orders and delivery checks for a refurbishment company.
+A Python desktop application developed to help a refurbishment company organise and manage plumbing material orders and deliveries.
+
+The application allows users to create orders for different job sites, select plumbing materials, add quantities, and generate a unique order ID for each order. Once materials are delivered, users can check each item and mark it as Have, Missing, or Not Checked.
+
+The application also includes an email generation feature that creates ready-to-use messages for placing material orders and reporting missing items. Orders and their delivery statuses are saved locally using JSON, allowing information to remain available when the application is closed and reopened.
+
+The project was created as a practical example of how a simple Python application can be used to digitalise and improve an everyday business process, reducing manual order preparation and making it easier to identify missing materials.
 
 ## Features
 
